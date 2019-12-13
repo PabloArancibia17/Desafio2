@@ -28,6 +28,7 @@ public class ControladorCreacionPelotas : MonoBehaviour
 
         // Generar indice aleatorio de la pelota y posicion aleatoria
         Instantiate(prefabsPelotas[Random.Range(0,3)], spawnPos, transform.rotation);
+
     }
 
 }
